@@ -15,11 +15,11 @@ func main2() {
 
 	var g = "foo"
 
-	fmt.Printf("a is type %T\n", a)
-	fmt.Printf("b is type %T\n", b)
-	fmt.Printf("c is type %T\n", c)
-	fmt.Printf("d is type %T\n", d)
-	fmt.Printf("e is type %T\n", e)
-	fmt.Printf("f is type %T\n", f)
-	fmt.Printf("g is type %T\n", g)
+	fmt.Printf("a = %d is type of %T\n", a, a)
+	fmt.Printf("b = %d is type of %T\n", b, b)
+	fmt.Printf("c = %d is type of %T\n", c, c)
+	fmt.Printf("d = %d is type of %T\n", d, d)
+	fmt.Printf("e = %f is type of %T\n", e, e)
+	fmt.Printf("f = %f is type of %T\n", f, f)
+	fmt.Printf("g = %s is type of %T\n", g, g)
 }
